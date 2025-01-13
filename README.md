@@ -18,7 +18,7 @@ If you run into any problems, or have suggestions for improving the design, asse
 ## Step 3: Run The Code
 
 ## License
-GNU
+GPL-3.0
 
 ## Author
 [Zoha Ahmed](https://github.com/zoha-a)
