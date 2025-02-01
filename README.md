@@ -13,7 +13,9 @@ If you run into any problems, or have suggestions for improving the design, asse
 
 ## Step 1: Raspberry Pi OS Setup
 Flash the latest version of Raspberry Pi OS (64-bit preferred) to a fresh microSD card, and insert the microSD card (at least 64GB) into your Pi, and boot it up. I configured over SSH using RealVNC Viewer.
-`sudo apt-get update`
+```
+sudo apt-get update
+```
 
 ## Step 2: Print Out The Keyboard
 
