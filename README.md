@@ -18,8 +18,11 @@ sudo apt-get update
 ```
 
 ## Step 2: Print Out The Keyboard
+Print out the jpg file titled Keyboard.
+![Keyboard](https://github.com/user-attachments/assets/4c6eb456-a976-47c2-bce3-9709ba35b8dc)
 
 ## Step 3: Run The Code
+Lastly, it is time to test the code. Either set up the camera facing the printout, run the .py file on your Raspberry Pi OS. Or you can film a video typing out anything and run the video in the .py file.
 
 ## License
 GPL-3.0
