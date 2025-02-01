@@ -8,10 +8,12 @@ If you run into any problems, or have suggestions for improving the design, asse
 ## Parts required
 - Raspberry Pi 4 model B (2 GB RAM or better)
 - Raspberry Pi Camera Module 3 (Other camera modules should work too!)
-- SanDisk Extreme 128GB microSD card
+- SanDisk Extreme 64GB microSD card
 - Paper printout of a keyboard
 
 ## Step 1: Raspberry Pi OS Setup
+Flash the latest version of Raspberry Pi OS (64-bit preferred) to a fresh microSD card, and insert the microSD card (at least 64GB) into your Pi, and boot it up. I configured over SSH using RealVNC Viewer.
+'''sudo apt-get update'''
 
 ## Step 2: Print Out The Keyboard
 
