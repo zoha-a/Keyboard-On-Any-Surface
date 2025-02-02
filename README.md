@@ -12,9 +12,36 @@ If you run into any problems, or have suggestions for improving the design, asse
 - Paper printout of a keyboard
 
 ## Step 1: Raspberry Pi OS Setup
-Flash the latest version of Raspberry Pi OS (64-bit preferred) to a fresh microSD card, and insert the microSD card (at least 64GB) into your Pi, and boot it up. I configured over SSH using RealVNC Viewer.
+Flash the latest version of Raspberry Pi OS (64-bit preferred) to a fresh microSD card, and insert the microSD card (at least 64GB) into your Pi, and boot it up. I configured over SSH using PuTTY and RealVNC Viewer. Run the following commands on your PuTTY after booting:
 ```
 sudo apt-get update
+```
+```
+sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+```
+```
+ifconfig
+```
+```
+check wlan0 inet address
+```
+```
+sudo raspi-config
+```
+Then, go to Interface Options and select Enable VNC. Add your hostname.local on VNC Viewer. On VNC Viewer, run:
+```
+sudo apt update
+```
+```
+sudo apt install python3-picamzero
+```
+This will save a video from your Pi Camera to your desktop.
+```
+rpicam-still -o ~/Desktop/image.jpg
+```
+This will save a video of 10,000 milliseconds.
+```
+rpicam-vid -t 10000 --codec libav --libav-format mp4 -o ~/Desktop/video.mp4
 ```
 
 ## Step 2: Print Out The Keyboard
